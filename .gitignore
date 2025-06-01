@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Allow folders (so we can access files inside them)
+!*/
+
+# Allow specific file types and files
+!Program.cs
+!Solution.cs
+!*.cpp
+!*.h
+!*.sql
+
+# Don't ignore the .gitignore file itself
+!.gitignore
+
